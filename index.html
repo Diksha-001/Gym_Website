@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAS's Gym</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gloock&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background: url("https://t3.ftcdn.net/jpg/00/70/73/00/360_F_70730003_uGMnq1lcROzPKqqssPlt58yj4Yr7hNbS.jpg");
+      font-family: "Baloo Bhai", cursive;
+    }
+    header{
+        background: rgb(101, 132, 101);
+        
+    }
+    .left {
+      
+      color: white;
+      width: 140px;
+      display: inline-block;
+      position: absolute;
+      left: 34px;
+      top: 20px;
+      padding-left: 20px;
+    }
+    .left img {
+      width: 58px;
+    }
+    .left div {
+      text-align: center center;
+      font-size: 15px;
+      line-height: 20px;
+      position: absolute;
+      left: 0px;
+    }
+    .mid {
+      
+      color: white;
+      display: block;
+      width: 49%;
+      margin: 10px auto;
+    }
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      
+      color: white;
+      display: inline-block;
+    }
+    .navbar {
+      display: inline-block;
+      
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 15px;
+    }
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 23px;
+    }
+    .navbar li a:hover,
+    .navbar li a:active {
+      color: greenyellow;
+      text-decoration: underline;
+    }
+    .btn {
+      margin: 0px 9px;
+      background-color: black;
+      color: white;
+      padding: 4px 14px;
+      border: 2px solid grey;
+      border-radius: 8px;
+      font-size: 13px;
+      cursor: pointer;
+      font-family: "Baloo Bhai", cursive;
+    }
+    .container {
+      border: 2px solid white;
+      margin: 106px 80px;
+      padding: 75px;
+      width: 33%;
+      border-radius: 28px;
+      color: white;
+      background-color: #1e201e8a;
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 90%;
+      margin: 7px auto;
+      font-size: 20px;
+      border-radius: 8px;
+      font-family: "Baloo Bhai", cursive;
+    }
+    .container button {
+      display: block;
+      width: 23%;
+      margin: auto;
+    }
+  </style>
+  <body>
+    <header>
+      <div class="left">
+        <img src="img/logo.jpg" alt="" />
+        <div>Amit's Fitness</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h2>Join the Best Gym of Sonbhadra now</h2>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" placeholder="write your name" />
+          <input type="number" placeholder="write your age" />
+          <input type="text" placeholder="write your Gender" />
+          <input type="text" placeholder="write your Locality" />
+          <input type="text" placeholder="write your Hobby" />
+          
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
